@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.googlebeta {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+ }
+ button{
+    margin: 10px;
+    padding: 2px 4px;
+}
+.container {
+  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 20px auto;
+
+}
+.search {
+    background-color: rgb(220, 217, 217)
+}
+.search input {
+    margin: 10px;
+    width: 317px;
+    height: 21px;
+}
+.kutu {
+    text-align: center;
+    float: left; 
+    height: 100px;
+    width: 100%;
+    padding-top: 8px;
+
+}
+.kutu1 {
+    background-color: rgb(126, 229, 218);
+    
+}
+.kutu2 {
+    background-color: rgb(84, 193, 180);
+    font-size: 12px;
+    
+
+}
+.lınks{
+    display: flex;
+    flex: 1 1 33%;
+    margin-top: 5px;
+    
+}
+.kutu3 {
+    background-color:  rgb(37, 193, 174);
+    
+}
+.kutu3 input::placeholder {
+    color: black;
+
+}
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin-top: 15px;
+    font-size: 15px;
+    
+}
